@@ -1,0 +1,8 @@
+type: google.api.Service
+config_version: 3
+
+http:
+  rules:
+    - selector: example_package.ExampleService.Example
+      post: /v1/exampleService/example
+      body: '*'
